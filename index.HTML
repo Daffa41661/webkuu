@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Game Perang - Pertahanan Benteng</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="game-container">
+        <h1>🎖️ Game Perang: Defense Line</h1>
+        
+        <div class="info-bar">
+            <div>Skor: <span id="scoreText">0</span></div>
+            <div>Nyawa Benteng: <span id="healthText">100</span>%</div>
+        </div>
+
+        <canvas id="gameCanvas" width="800" height="400"></canvas>
+
+        <p class="controls-guide">
+            🎮 <strong>Kontrol:</strong> Arahkan kursor ke musuh & <strong>Klik Kiri</strong> untuk menembak!
+        </p>
+
+        <button id="restartBtn" class="hidden">Main Lagi</button>
+    </div>
+
+    <script src="script.js"></script>
+    <styles src="styles.css"></styles>
+</body>
+</html>
